@@ -1,4 +1,4 @@
-# Google Calendar Clone - Vanilla JavaScript
+# Google Calendar Clone 
 
 A fully functional calendar application built with vanilla JavaScript, HTML, and CSS. This is a zero-dependency clone of Google Calendar with multiple views, event management, category support, and Indian holidays integration.
 
@@ -98,7 +98,7 @@ google-calendar-clone-vanilla/
 
 1. **Clone or extract the project**
    ```bash
-   cd google-calendar-clone-vanilla
+   cd google-calendar-clone
    ```
 
 2. **Install dependencies**
@@ -264,11 +264,5 @@ Chase Ottofy
 
 ## Links
 
-- **Repository**: [https://github.com/chaseottofy/google-calendar-clone-vanilla](https://github.com/chaseottofy/google-calendar-clone-vanilla)
-- **Issues**: [https://github.com/chaseottofy/google-calendar-clone-vanilla/issues](https://github.com/chaseottofy/google-calendar-clone-vanilla/issues)
+- **Repository**: [https://github.com/sant123-crypto680/Google_Calender_clone]
 
----
-
-**Version**: 1.0.1
-
-Built with vanilla JavaScript - No frameworks, no dependencies, just pure code.
