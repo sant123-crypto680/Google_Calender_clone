@@ -64,7 +64,7 @@ A fully functional calendar application built with vanilla JavaScript, HTML, and
 ## Project Structure
 
 ```
-google-calendar-clone-vanilla/
+google-calendar-clone/
 ├── src/
 │   ├── components/
 │   │   ├── forms/          # Event forms and input handling
@@ -126,7 +126,7 @@ google-calendar-clone-vanilla/
    npm run dev
    ```
 
-   The application will open in your default browser at `http://localhost:8080`
+   The application will open in your default browser at `http://localhost:3000
 
 ## Available Scripts
 
@@ -230,8 +230,6 @@ This is a personal project, but contributions are welcome!
 - Follow Stylelint rules defined in `.stylelintrc.json`
 - Run `npm run lint:fix` and `npm run stylelint:fix` before committing
 
-## Troubleshooting
-
 ### Holidays Not Appearing
 1. Ensure you have a valid Google Calendar API key in `.env`
 2. Check browser console for API errors
@@ -259,7 +257,6 @@ Chase Ottofy
 ## Acknowledgments
 
 - Inspired by Google Calendar
-- Built with modern vanilla JavaScript practices
 - Uses Google Calendar API for holidays integration
 
 ## Links
