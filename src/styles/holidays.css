@@ -1,0 +1,75 @@
+/* Holiday event styles */
+
+/* Holiday events in month view */
+.monthview--box[data-holiday="true"] {
+  background-color: #9E69AF !important;
+  opacity: 0.8;
+  cursor: default;
+  pointer-events: none;
+}
+
+.monthview--box[data-holiday="true"] .monthview--title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* Holiday events in week view */
+.weekview--box[data-holiday="true"],
+.weekview--box-top[data-holiday="true"] {
+  background-color: #9E69AF !important;
+  opacity: 0.8;
+  cursor: default;
+  pointer-events: none;
+}
+
+.weekview--box[data-holiday="true"] .weekview--title,
+.weekview--box-top[data-holiday="true"] .weekview--title {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Holiday events in day view */
+.dayview--box[data-holiday="true"],
+.dayview--box-top[data-holiday="true"] {
+  background-color: #9E69AF !important;
+  opacity: 0.8;
+  cursor: default;
+  pointer-events: none;
+}
+
+.dayview--box[data-holiday="true"] .dayview--title,
+.dayview--box-top[data-holiday="true"] .dayview--title {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Holiday indicator on calendar cells */
+.monthview--day[data-has-holiday="true"] .monthview--daynumber::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  background-color: #9E69AF;
+  border-radius: 50%;
+}
+
+/* Holiday hover effects (read-only) */
+.monthview--box[data-holiday="true"]:hover,
+.weekview--box[data-holiday="true"]:hover,
+.weekview--box-top[data-holiday="true"]:hover,
+.dayview--box[data-holiday="true"]:hover,
+.dayview--box-top[data-holiday="true"]:hover {
+  opacity: 0.9;
+  cursor: default;
+}
+
+/* Disable drag and drop for holidays */
+.monthview--box[data-holiday="true"][draggable],
+.weekview--box[data-holiday="true"][draggable],
+.dayview--box[data-holiday="true"][draggable] {
+  cursor: default !important;
+}
